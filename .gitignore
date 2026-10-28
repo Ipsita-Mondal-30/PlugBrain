@@ -34,3 +34,5 @@ google-services.json
 
 # Signing keys
 keystore.properties
+config.bat
+node_modules
