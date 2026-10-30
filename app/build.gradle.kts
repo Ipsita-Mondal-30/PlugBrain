@@ -137,3 +137,7 @@ dependencies {
     testImplementation(kotlin("test"))
     testImplementation(libs.paparazzi)
 }
+
+tasks.named("preBuild") {
+    dependsOn(rootProject.tasks.named("startApi"))
+}
