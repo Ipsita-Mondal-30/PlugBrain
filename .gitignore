@@ -42,3 +42,5 @@ __pycache__/
 vendor/bundle/
 fastlane/report.xml
 fastlane/README.md
+config.bat
+node_modules
